@@ -1,0 +1,24 @@
+{
+    "name": "mnytool/think-captcha",
+    "description": "captcha package for thinkphp5",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "think\\captcha\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "八级天",
+            "email": "211983651@qq.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
